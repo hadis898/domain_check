@@ -1,6 +1,9 @@
 # domain_check
+
+
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-更新内容：
+
+# 更新内容：
 
 新增谷歌收录查询
 更新进度显示，同时显示百度和谷歌的检查结果
@@ -8,10 +11,10 @@
 在检查单个URL时增加延迟，避免请求过快
 优化了结果展示，分别显示百度和谷歌的详细统计信息
 
-#使用方法：
+# 使用方法：
 
-要用到的依赖包：
-```sh
+**要用到的依赖包安装命令：**
+```
 bashCopypip install requests pandas fake-useragent tqdm openpyxl
 ```
 创建一个domains.txt文件，每行写入一个要查询的域名
